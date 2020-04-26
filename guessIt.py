@@ -62,9 +62,10 @@ while flag:
                  count += 1
                  continue
         print("Game Over")
-        
+
     else:
-        print("Invalid, try again")
+        print("Invalid, , try again later")
+        break
 
 flag = False
-print("Game over, try again")
+print("Game over")
